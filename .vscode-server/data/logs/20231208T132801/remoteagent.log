@@ -1,0 +1,39 @@
+2023-12-08 13:28:01.441 [info] 
+
+
+
+
+2023-12-08 13:28:01.441 [info] Extension host agent started.
+2023-12-08 13:28:01.584 [info] [127.0.0.1][93200cf1][ManagementConnection] New connection established.
+2023-12-08 13:28:01.587 [info] [127.0.0.1][e35a87dd][ExtensionHostConnection] New connection established.
+2023-12-08 13:28:01.975 [info] [127.0.0.1][e35a87dd][ExtensionHostConnection] <4933> Launched Extension Host Process.
+2023-12-08 13:28:07.724 [info] Getting Manifest... github.copilot-chat
+2023-12-08 13:28:07.725 [info] Getting Manifest... ms-python.python
+2023-12-08 13:28:07.923 [info] Installing extension: github.copilot-chat
+2023-12-08 13:28:07.997 [info] Installing extension: ms-python.python
+2023-12-08 13:28:13.715 [warning] Extension signature verification failed with error 'ENOENT': github.copilot-chat
+2023-12-08 13:28:14.988 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2: github.copilot-chat
+2023-12-08 13:28:15.015 [info] Renamed to /home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2
+2023-12-08 13:28:15.024 [info] Extracting extension completed. github.copilot-chat
+2023-12-08 13:28:15.054 [info] Extension installed successfully: github.copilot-chat
+2023-12-08 13:28:15.076 [info] Marked extension as uninstalled github.copilot-chat-0.2.2
+2023-12-08 13:28:34.271 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2023-12-08 13:28:49.466 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2023.22.0: ms-python.python
+2023-12-08 13:28:49.509 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2023.22.0
+2023-12-08 13:28:49.526 [info] Extracting extension completed. ms-python.python
+2023-12-08 13:28:49.560 [info] Extension installed successfully: ms-python.python
+2023-12-08 13:28:49.590 [info] Marked extension as uninstalled ms-python.python-2023.14.0
+2023-12-08 13:29:18.360 [info] [127.0.0.1][93200cf1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-08 13:29:18.500 [info] [127.0.0.1][e35a87dd][ExtensionHostConnection] <4933> Extension Host Process exited with code: 0, signal: null.
+2023-12-08 13:29:18.501 [info] Cancelling previous shutdown timeout
+2023-12-08 13:29:18.501 [info] Last EH closed, waiting before shutting down
+2023-12-08 13:29:29.028 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-08 13:29:29.028 [info] Cancelling previous shutdown timeout
+2023-12-08 13:29:29.147 [info] [127.0.0.1][2e433144][ManagementConnection] New connection established.
+2023-12-08 13:29:29.150 [info] [127.0.0.1][5852769b][ExtensionHostConnection] New connection established.
+2023-12-08 13:29:29.171 [info] [127.0.0.1][5852769b][ExtensionHostConnection] <5059> Launched Extension Host Process.
+2023-12-08 13:34:29.030 [info] New EH opened, aborting shutdown
+2023-12-08 13:36:32.529 [info] [127.0.0.1][2e433144][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-08 13:36:32.818 [info] [127.0.0.1][5852769b][ExtensionHostConnection] <5059> Extension Host Process exited with code: 0, signal: null.
+2023-12-08 13:36:32.820 [info] Last EH closed, waiting before shutting down
+2023-12-08 13:41:32.821 [info] Last EH closed, shutting down

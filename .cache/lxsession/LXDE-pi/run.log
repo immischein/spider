@@ -1,0 +1,894 @@
+** Message: 12:17:11.848: environement.vala:58: Exporting primary_variable
+** Message: 12:17:11.848: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 12:17:11.848: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 12:17:11.848: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 12:17:11.848: environement.vala:218: custom_data :
+** Message: 12:17:11.848: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 12:17:11.848: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 12:17:11.848: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 12:17:11.849: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.849: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 12:17:11.849: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 12:17:11.849: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.849: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:2459): WARNING **: 12:17:11.851: utils.vala:70: No such file or directory
+** Message: 12:17:11.851: settings.vala:540: Key file does not have key ?iGtk/ColorScheme? in group ?GTK?
+** Message: 12:17:11.851: settings.vala:540: Key file does not have key ?windows_manager/command? in group ?Session?
+** Message: 12:17:11.851: settings.vala:540: Key file does not have key ?panel/command? in group ?Session?
+** Message: 12:17:11.851: settings.vala:540: Key file does not have key ?dock/command? in group ?Session?
+** Message: 12:17:11.851: settings.vala:540: Key file does not have key ?file_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?desktop_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?launcher_manager/autostart? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?composite_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?im1/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?im2/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?widget1/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?notification/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?keybindings/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?im_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?screensaver/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?power_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?audio_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?workspace_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?screenshot_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?message_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?upgrade_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?updates_manager/command? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?updates_manager/timeout? in group ?Session?
+** Message: 12:17:11.852: settings.vala:540: Key file does not have key ?crash_manager/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?crash_manager/dev_mode? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?crash_manager/timeout? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?upstart_user_session? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?proxy_manager/http? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?a11y/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?xrandr/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?network_gui/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?webbrowser/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?email/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?pdf_reader/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?video_player/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?audio_player/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?image_display/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?text_editor/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?archive/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?charmap/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?calculator/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?spreadsheet/command? in group ?Session?
+** Message: 12:17:11.853: settings.vala:540: Key file does not have key ?bittorent/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?document/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?webcam/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?burn/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?notes/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?disk_utility/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?tasks/command? in group ?Session?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have group ?Keymap?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?laptop_mode? in group ?State?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?gnome? in group ?Dbus?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?type? in group ?Environment?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?ubuntu_menuproxy? in group ?Environment?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?toolkit_integration? in group ?Environment?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?gtk/overlay_scrollbar_disable? in group ?Environment?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?qt/force_theme? in group ?Environment?
+** Message: 12:17:11.854: settings.vala:540: Key file does not have key ?qt/platform? in group ?Environment?
+** Message: 12:17:11.855: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 12:17:11.855: settings.vala:470: Desktop file is not in config home, monitoring creation of it
+** Message: 12:17:11.855: settings.vala:485: Monitoring home path: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 12:17:11.855: environement.vala:79: Exporting variable
+** Message: 12:17:11.855: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 12:17:11.855: environement.vala:177: custom_config :
+** Message: 12:17:11.855: environement.vala:178: config_dirs :/etc/xdg
+** Message: 12:17:11.855: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 12:17:11.855: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 12:17:11.855: environement.vala:218: custom_data :
+** Message: 12:17:11.855: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 12:17:11.855: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 12:17:11.855: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 12:17:11.855: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.856: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:2459): WARNING **: 12:17:11.856: utils.vala:70: No such file or directory
+** Message: 12:17:11.856: environement.vala:254: No entry in [Environment_variable]. Key file does not have group ?Environment_variable?
+
+** (lxsession:2459): WARNING **: 12:17:11.859: process.vala:49: Failed to execute child process ?xprop? (No such file or directory)
+
+** (lxsession:2459): WARNING **: 12:17:11.859: process.vala:50: Error when launching xprop
+** Message: 12:17:11.859: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.859: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 12:17:11.859: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 12:17:11.859: options.vala:164: Activate xsettings_manager build-in
+** Message: 12:17:11.859: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.859: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:2459): WARNING **: 12:17:11.859: utils.vala:70: No such file or directory
+** Message: 12:17:11.872: app.vala:728: polkit separate
+** Message: 12:17:11.872: app.vala:728: polkit separate
+** Message: 12:17:11.890: app.vala:76: Launching lxpolkit 
+** Message: 12:17:11.890: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 12:17:11.890: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 12:17:11.890: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 12:17:11.890: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+
+(process:2594): Gtk-WARNING **: 12:17:11.917: Locale not supported by C library.
+	Using the fallback 'C' locale.
+** Message: 12:17:11.918: app.vala:76: Launching lxpanel 
+** Message: 12:17:11.922: app.vala:76: Launching pcmanfm 
+
+** (lxsession:2459): WARNING **: 12:17:11.925: app.vala:86: Failed to execute child process ?xscreensaver? (No such file or directory)
+
+** (lxsession:2459): WARNING **: 12:17:11.925: app.vala:87: Error when launching xscreensaver
+** Message: 12:17:11.929: options.vala:107: Create build-in Clipboard
+** Message: 12:17:11.931: main.vala:450: Check keymap_mode (null)
+** Message: 12:17:11.937: app.vala:76: Launching /usr/bin/ssh-agent 
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+SSH_AUTH_SOCK=/tmp/ssh-XXXXXXf8lHLZ/agent.2602; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=2620; export SSH_AGENT_PID;
+echo Agent pid 2620;
+** Message: 12:17:12.006: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+
+(process:2597): Gtk-WARNING **: 12:17:12.017: Locale not supported by C library.
+	Using the fallback 'C' locale.
+No composite extension
+
+(process:2596): Gtk-WARNING **: 12:17:12.077: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Openbox-Message: Couldn't set locale from environment.
+Obt-Message: Xinerama extension is not present on the server
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+Openbox-Message: Requested key "XF86AudioRaiseVolume" does not exist on the display
+Openbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
+Openbox-Message: Requested key "XF86AudioMute" does not exist on the display
+
+(process:2625): Gtk-WARNING **: 12:17:12.195: Locale not supported by C library.
+	Using the fallback 'C' locale.
+** Message: 12:17:12.198: x-terminal-emulator has very limited support, consider choosing another terminal
+** Message: 12:17:12.286: x-terminal-emulator has very limited support, consider choosing another terminal
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+grep: /home/pi/.config/lxpanel/LXDE-pi/panels/*: No such file or directory
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+** Message: 12:17:13.366: dhcpcdui: dhcpcd service not running; plugin hidden
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+** Message: 12:17:13.677: ptbatt: battery 0 not found
+** Message: 12:17:14.164: up: Checking for updates
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:17:14.165: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:17:14.165: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:17:14.165: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:17:14.165: g_variant_unref: assertion 'value != NULL' failed
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+** Message: 12:17:53.505: up: Cache updated - comparing versions
+** Message: 12:17:58.861: up: Check complete - 128 updates available
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:21:33.915: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:21:33.915: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:21:33.916: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:21:33.916: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:21:33.916: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:22:47.110: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:22:47.111: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:22:47.111: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:22:47.111: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:22:47.111: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:24:14.997: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:24:14.997: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:24:14.997: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:24:14.997: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:24:14.997: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:25:28.299: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:25:28.299: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:25:28.299: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:25:28.299: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:25:28.299: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:26:41.618: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:26:41.618: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:26:41.619: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:26:41.619: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:26:41.619: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:27:54.840: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:27:54.841: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:27:54.841: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:27:54.841: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:27:54.841: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:29:07.944: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:29:07.945: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:29:07.945: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:29:07.945: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:29:07.945: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:32:47.785: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:32:47.785: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:32:47.785: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:32:47.785: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:32:47.785: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:34:01.026: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:34:01.026: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:34:01.026: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:34:01.027: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:34:01.027: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:35:14.334: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:35:14.334: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:35:14.334: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:35:14.334: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:35:14.334: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:36:27.545: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:36:27.545: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:36:27.545: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:36:27.545: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:36:27.545: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:37:40.862: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:37:40.862: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:37:40.862: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:37:40.862: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:37:40.862: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:38:54.085: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:38:54.085: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:38:54.086: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:38:54.086: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:38:54.086: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:40:07.295: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:40:07.295: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:40:07.295: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:40:07.295: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:40:07.296: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:41:20.631: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:41:20.631: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:41:20.631: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:41:20.631: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:41:20.631: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:42:33.846: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:42:33.846: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:42:33.846: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:42:33.846: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:42:33.846: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:43:47.044: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:43:47.044: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:43:47.044: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:43:47.044: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:43:47.044: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:45:00.382: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:45:00.382: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:45:00.382: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:45:00.382: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:45:00.382: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:46:13.606: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:46:13.607: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:46:13.607: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:46:13.607: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:46:13.607: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:48:10.835: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:48:10.836: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:48:10.836: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:48:10.836: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:48:10.836: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:49:53.333: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:49:53.333: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:49:53.333: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:49:53.333: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:49:53.334: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:51:06.551: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:51:06.551: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:51:06.551: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:51:06.551: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:51:06.551: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:52:19.882: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:52:19.883: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:52:19.883: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:52:19.883: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:52:19.883: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:53:33.121: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:53:33.121: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:53:33.121: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:53:33.121: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:53:33.121: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:54:46.415: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:54:46.421: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:54:46.421: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:54:46.421: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:54:46.421: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:55:59.638: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:55:59.639: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:55:59.639: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:55:59.639: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:55:59.639: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:57:12.860: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:57:12.860: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:57:12.860: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:57:12.860: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:57:12.861: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:58:26.159: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:58:26.159: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:58:26.160: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:58:26.160: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:58:26.160: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 12:59:39.379: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:59:39.379: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:59:39.379: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:59:39.380: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 12:59:39.380: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:00:52.599: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:00:52.599: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:00:52.600: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:00:52.600: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:00:52.600: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:02:05.926: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:02:05.926: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:02:05.926: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:02:05.926: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:02:05.927: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:03:19.128: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:03:19.128: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:03:19.128: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:03:19.128: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:03:19.128: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:05:31.047: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:05:31.047: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:05:31.047: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:05:31.047: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:05:31.048: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:06:44.250: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:06:44.251: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:06:44.251: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:06:44.251: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:06:44.251: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:07:57.456: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:07:57.456: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:07:57.456: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:07:57.456: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:07:57.456: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:09:10.772: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:09:10.772: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:09:10.772: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:09:10.772: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:09:10.772: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:10:23.986: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:10:23.986: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:10:23.986: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:10:23.986: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:10:23.986: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:12:50.537: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:12:50.537: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:12:50.537: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:12:50.537: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:12:50.537: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:14:03.741: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:14:03.742: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:14:03.742: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:14:03.743: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:14:03.744: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:15:16.948: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:15:16.948: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:15:16.948: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:15:16.949: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:15:16.949: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:16:30.270: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:16:30.270: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:16:30.270: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:16:30.270: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:16:30.270: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:18:12.773: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:18:12.773: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:18:12.774: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:18:12.774: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:18:12.774: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:19:26.092: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:19:26.093: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:19:26.093: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:19:26.093: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:19:26.093: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:20:39.316: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:20:39.316: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:20:39.316: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:20:39.316: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:20:39.316: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:24:04.417: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:24:04.417: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:24:04.417: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:24:04.417: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:24:04.417: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:25:17.744: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:25:17.745: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:25:17.745: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:25:17.745: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:25:17.745: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:26:30.963: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:26:30.963: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:26:30.963: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:26:30.963: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:26:30.963: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:27:44.165: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:27:44.165: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:27:44.166: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:27:44.166: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:27:44.166: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:28:57.509: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:28:57.510: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:28:57.510: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:28:57.510: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:28:57.510: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:30:10.706: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:30:10.706: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:30:10.707: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:30:10.707: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:30:10.707: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:31:23.938: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:31:23.939: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:31:23.939: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:31:23.939: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:31:23.939: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:33:50.461: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:33:50.461: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:33:50.461: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:33:50.461: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:33:50.461: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:35:03.701: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:35:03.702: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:35:03.702: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:35:03.702: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:35:03.702: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:36:17.025: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:36:17.025: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:36:17.025: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:36:17.025: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:36:17.025: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:37:30.220: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:37:30.221: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:37:30.221: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:37:30.221: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:37:30.221: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:39:56.787: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:39:56.787: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:39:56.787: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:39:56.787: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:39:56.788: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:41:09.987: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:41:09.987: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:41:09.988: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:41:09.988: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:41:09.988: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:42:23.201: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:42:23.202: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:42:23.202: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:42:23.202: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:42:23.202: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:43:36.498: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:43:36.499: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:43:36.499: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:43:36.499: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:43:36.499: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:44:49.717: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:44:49.717: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:44:49.717: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:44:49.717: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:44:49.717: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:46:03.048: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:46:03.049: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:46:03.049: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:46:03.049: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:46:03.049: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:47:16.276: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:16.276: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:16.276: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:16.277: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:16.277: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:47:50.549: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:50.549: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:50.549: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:50.549: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:47:50.549: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:49:13.422: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:49:13.423: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:49:13.423: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:49:13.423: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:49:13.423: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:50:26.735: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:50:26.735: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:50:26.735: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:50:26.736: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:50:26.736: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:51:39.948: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:51:39.948: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:51:39.948: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:51:39.948: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:51:39.949: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:52:53.156: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:52:53.158: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:52:53.158: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:52:53.158: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:52:53.158: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:54:06.484: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:54:06.485: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:54:06.485: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:54:06.485: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:54:06.485: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:55:19.705: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:55:19.706: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:55:19.706: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:55:19.706: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:55:19.706: g_variant_unref: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-GIO-CRITICAL **: 13:56:33.035: g_settings_get_value: assertion 'G_IS_SETTINGS (settings)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:56:33.036: g_variant_get_type: assertion 'value != NULL' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:56:33.036: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:56:33.036: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(lxpanel:2596): GLib-CRITICAL **: 13:56:33.036: g_variant_unref: assertion 'value != NULL' failed
+lxsession: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+openbox-lxde-pi (null) 
+lxpolkit (null) 
+lxpanel --profile LXDE-pi (null) 
+pcmanfm --desktop --profile LXDE-pi (null) 
+/usr/bin/ssh-agent -s (null) 
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 7157 requests (7154 known processed) with 0 events remaining.

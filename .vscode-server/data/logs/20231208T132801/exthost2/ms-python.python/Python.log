@@ -1,0 +1,16 @@
+2023-12-08 13:29:50.242 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-12-08 13:29:50.242 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-12-08 13:29:50.242 [info] Default formatter is set to null for workspace /home/pi
+2023-12-08 13:29:50.242 [info] Test server listening.
+2023-12-08 13:29:50.384 [info] > /bin/python -I ./.vscode-server/extensions/ms-python.python-2023.22.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.22.0/pythonFiles/interpreterInfo.py
+2023-12-08 13:29:50.549 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-08 13:29:50.559 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-08 13:29:50.559 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-08 13:29:50.559 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-08 13:29:50.579 [info] Python interpreter path: /bin/python
+2023-12-08 13:29:52.174 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-08 13:29:55.100 [info] Starting Pylance language server.
+2023-12-08 13:30:26.444 [info] Send text to terminal: /bin/python /home/pi/Desktop/script.py
+2023-12-08 13:32:25.200 [info] Using launch configuration in workspace folder.
+2023-12-08 13:32:25.648 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.22.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:32:28.346 [info] Send text to terminal:  /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.22.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 44133 -- /home/pi/Desktop/script.py 

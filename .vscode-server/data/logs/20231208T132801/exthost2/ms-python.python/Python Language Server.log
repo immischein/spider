@@ -1,0 +1,11 @@
+2023-12-08 13:29:54.976 [info] [Info  - 13:29:54] (5155) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-12-08 13:29:54.985 [info] [Info  - 13:29:54] (5155) Server root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-12-08 13:29:54.986 [info] [Info  - 13:29:54] (5155) Starting service instance "pi"
+2023-12-08 13:29:55.318 [info] [Info  - 13:29:55] (5155) Setting pythonPath for service "pi": "/bin/python"
+2023-12-08 13:29:55.319 [info] [Info  - 13:29:55] (5155) Setting environmentName for service "pi": "3.11.2 (global)"
+2023-12-08 13:29:55.486 [info] [Info  - 13:29:55] (5155) Assuming Python version 3.11
+2023-12-08 13:29:55.843 [info] [Info  - 13:29:55] (5155) Found 13 source files
+2023-12-08 13:30:04.602 [info] [Info  - 13:30:04] (5155) [IDX(2)] Long operation: scan packages /home/pi (5158ms)
+2023-12-08 13:30:05.883 [info] [Info  - 13:30:05] (5155) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/script.py (7867ms)
+2023-12-08 13:30:19.452 [info] [Info  - 13:30:19] (5155) [IDX(2)] Long operation: index execution environment /home/pi (7220ms)
+2023-12-08 13:30:19.466 [info] [Info  - 13:30:19] (5155) [IDX(2)] Long operation: index packages /home/pi (13979ms)

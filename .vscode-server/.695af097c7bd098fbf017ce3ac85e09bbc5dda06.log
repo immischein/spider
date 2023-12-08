@@ -1,0 +1,294 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:46785 (IPv4)
+Extension host agent listening on 46785
+
+[12:56:41] 
+
+
+
+
+[12:56:41] Extension host agent started.
+[12:56:42] [127.0.0.1][86529deb][ManagementConnection] New connection established.
+[12:56:42] [127.0.0.1][76d66af6][ExtensionHostConnection] New connection established.
+[12:56:42] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.140.585
+[12:56:42] [127.0.0.1][76d66af6][ExtensionHostConnection] <2659> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+New EH opened, aborting shutdown
+[13:01:41] New EH opened, aborting shutdown
+[13:28:15] Extensions removed from another source github.copilot-chat file:///home/pi/.vscode-server/extensions/extensions.json
+[13:28:15] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:28:15] Extensions added from another source github.copilot-chat file:///home/pi/.vscode-server/extensions/extensions.json
+[13:28:15] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:28:49] Extensions removed from another source ms-python.python file:///home/pi/.vscode-server/extensions/extensions.json
+[13:28:49] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:28:49] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:28:49] Extensions added from another source ms-python.python file:///home/pi/.vscode-server/extensions/extensions.json
+[13:28:49] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:27] [127.0.0.1][ffc0258e][ManagementConnection] New connection established.
+[13:39:27] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] New connection established.
+[13:39:27] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] <5893> Launched Extension Host Process.
+[13:39:28] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:28] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:28] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:28] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:29] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:29] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:29] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:29] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:29] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:29] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[13:39:31] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:39:31] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:45] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:39:45] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:44:28] [127.0.0.1][76d66af6][ExtensionHostConnection] <2659> Extension Host Process exited with code: 0, signal: null.
+[13:44:30] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:44:30] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:47:24] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:47:24] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:47:24] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:47:24] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:47:24] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:47:24] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:28] [127.0.0.1][ffc0258e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:48:28] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] <5893> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:48:28] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:48:52] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:48:52] Cancelling previous shutdown timeout
+[13:48:52] [127.0.0.1][fa80ee90][ManagementConnection] New connection established.
+[13:48:52] [127.0.0.1][41694655][ExtensionHostConnection] New connection established.
+[13:48:52] [127.0.0.1][41694655][ExtensionHostConnection] <6151> Launched Extension Host Process.
+[13:48:53] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:53] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:53] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:53] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:53] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:53] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:54] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:54] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:54] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:54] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:54] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:54] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:54] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:54] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:54] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:54] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:55] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:55] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:55] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:55] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:48:55] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:55] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[13:48:56] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:56] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[13:48:56] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:48:56] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:49:01] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:49:01] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:52:14] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:52:15] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:52:15] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:52:15] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+[13:52:15] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+[13:52:15] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.

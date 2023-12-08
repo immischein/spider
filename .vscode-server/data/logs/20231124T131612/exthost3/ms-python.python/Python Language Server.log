@@ -1,0 +1,20 @@
+2023-11-24 13:19:12.765 [info] [Info  - 13:19:12] (2613) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-11-24 13:19:12.767 [info] [Info  - 13:19:12] (2613) Server root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-11-24 13:19:12.768 [info] [Info  - 13:19:12] (2613) Starting service instance "Public"
+2023-11-24 13:19:12.983 [info] [Info  - 13:19:12] (2613) Setting pythonPath for service "Public": "/bin/python"
+2023-11-24 13:19:12.985 [info] [Info  - 13:19:12] (2613) Setting environmentName for service "Public": "3.11.2 (global)"
+2023-11-24 13:19:13.156 [info] [Info  - 13:19:13] (2613) Assuming Python version 3.11
+2023-11-24 13:19:14.096 [info] [Info  - 13:19:14] (2613) No source files found.
+2023-11-24 13:19:21.532 [info] [Info  - 13:19:21] (2613) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/script.py (4341ms)
+2023-11-24 13:19:22.584 [info] [Info  - 13:19:22] (2613) [IDX(2)] Long operation: scan packages /home/pi/Public (6121ms)
+2023-11-24 13:19:26.308 [info] [Info  - 13:19:26] (2613) Setting pythonPath for service "Public": "/bin/python"
+2023-11-24 13:19:26.309 [info] [Info  - 13:19:26] (2613) Setting environmentName for service "Public": "3.11.2 (global)"
+2023-11-24 13:19:26.457 [info] [Info  - 13:19:26] (2613) Assuming Python version 3.11
+2023-11-24 13:19:26.736 [info] [Info  - 13:19:26] (2613) No source files found.
+2023-11-24 13:19:29.410 [info] [Info  - 13:19:29] (2613) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1700831963581 at /home/pi/Desktop/script.py (2626ms)
+2023-11-24 13:19:30.636 [info] [Info  - 13:19:30] (2613) [IDX(2)] Long operation: index packages /home/pi/Public (7787ms)
+2023-11-24 13:19:39.777 [info] [Info  - 13:19:39] (2613) [IDX(2)] Long operation: index execution environment /home/pi/Public (7441ms)
+2023-11-24 13:19:39.854 [info] [Info  - 13:19:39] (2613) [IDX(2)] Long operation: index packages /home/pi/Public (7871ms)
+2023-11-24 14:16:43.013 [info] [Info  - 14:16:43] (2613) Found 1 source file
+2023-11-24 14:16:45.802 [info] [Info  - 14:16:45] (2613) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2204ms)
+2023-11-24 14:16:45.803 [info] [Info  - 14:16:45] (2613) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2784ms)

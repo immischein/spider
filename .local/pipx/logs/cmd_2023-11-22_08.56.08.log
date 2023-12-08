@@ -1,0 +1,8 @@
+   388.3ms (setup:799): 2023-11-22 08:56:08
+   388.7ms (setup:800): /home/pi/.local/lib/python3.11/site-packages/pipx/__main__.py ensurepath
+   388.8ms (setup:801): pipx version is 1.2.1
+   388.9ms (setup:802): Default python interpreter is '/usr/bin/python'
+   389.1ms (mkdir:81): creating directory /home/pi/.local/pipx/venvs
+   389.4ms (mkdir:81): creating directory /home/pi/.local/pipx/.cache
+   389.7ms (setup:810): Adding CACHEDIR.TAG to cache directory
+   698.1ms (cli:874): pipx finished.

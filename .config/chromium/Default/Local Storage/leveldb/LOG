@@ -1,0 +1,18 @@
+2023/12/08-12:59:54.867 3 Reusing MANIFEST /home/pi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/12/08-12:59:54.898 3 Recovering log #13
+2023/12/08-12:59:54.939 3 Reusing old log /home/pi/.config/chromium/Default/Local Storage/leveldb/000013.log 
+2023/12/08-13:10:10.718 3 Level-0 table #17: started
+2023/12/08-13:10:10.736 3 Level-0 table #17: 19678 bytes OK
+2023/12/08-13:10:10.748 3 Delete type=0 #13
+2023/12/08-13:45:12.202 3 Level-0 table #19: started
+2023/12/08-13:45:12.246 3 Level-0 table #19: 21398 bytes OK
+2023/12/08-13:45:12.271 3 Delete type=0 #16
+2023/12/08-13:45:12.273 3 Compacting 4@0 + 1@1 files
+2023/12/08-13:45:12.372 3 Generated table #20@0: 77 keys, 59117 bytes
+2023/12/08-13:45:12.373 3 Compacted 4@0 + 1@1 files => 59117 bytes
+2023/12/08-13:45:12.384 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/08-13:45:12.386 3 Delete type=2 #19
+2023/12/08-13:45:12.386 3 Delete type=2 #17
+2023/12/08-13:45:12.386 3 Delete type=2 #14
+2023/12/08-13:45:12.387 3 Delete type=2 #11
+2023/12/08-13:45:12.387 3 Delete type=2 #8

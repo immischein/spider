@@ -1,0 +1,100 @@
+2023-12-08 12:56:41.760 [info] 
+
+
+
+
+2023-12-08 12:56:41.936 [info] Extension host agent started.
+2023-12-08 12:56:42.288 [info] [127.0.0.1][86529deb][ManagementConnection] New connection established.
+2023-12-08 12:56:42.382 [info] [127.0.0.1][76d66af6][ExtensionHostConnection] New connection established.
+2023-12-08 12:56:42.387 [info] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.140.585
+2023-12-08 12:56:42.661 [info] [127.0.0.1][76d66af6][ExtensionHostConnection] <2659> Launched Extension Host Process.
+2023-12-08 13:01:41.941 [info] New EH opened, aborting shutdown
+2023-12-08 13:28:15.121 [info] Extensions removed from another source github.copilot-chat file:///home/pi/.vscode-server/extensions/extensions.json
+2023-12-08 13:28:15.189 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:28:15.217 [info] Extensions added from another source github.copilot-chat file:///home/pi/.vscode-server/extensions/extensions.json
+2023-12-08 13:28:15.231 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:28:49.616 [info] Extensions removed from another source ms-python.python file:///home/pi/.vscode-server/extensions/extensions.json
+2023-12-08 13:28:49.648 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:28:49.654 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:28:49.668 [info] Extensions added from another source ms-python.python file:///home/pi/.vscode-server/extensions/extensions.json
+2023-12-08 13:28:49.701 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:27.791 [info] [127.0.0.1][ffc0258e][ManagementConnection] New connection established.
+2023-12-08 13:39:27.902 [info] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] New connection established.
+2023-12-08 13:39:27.922 [info] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] <5893> Launched Extension Host Process.
+2023-12-08 13:39:28.878 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:28.889 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:28.991 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:28.994 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:29.204 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:29.206 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:29.378 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:29.380 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:29.628 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:29.636 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.021 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.041 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.198 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.201 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.231 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.234 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.362 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.365 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.522 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.523 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:30.613 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:30.615 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:31.549 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:39:31.555 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:45.327 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:39:45.328 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:44:28.304 [info] [127.0.0.1][76d66af6][ExtensionHostConnection] <2659> Extension Host Process exited with code: 0, signal: null.
+2023-12-08 13:44:30.918 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:44:30.931 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:47:24.075 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:47:24.078 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:47:24.149 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:47:24.152 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:47:24.294 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:47:24.296 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:28.592 [info] [127.0.0.1][ffc0258e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-08 13:48:28.696 [info] [127.0.0.1][3dd8f9e5][ExtensionHostConnection] <5893> Extension Host Process exited with code: 0, signal: null.
+2023-12-08 13:48:28.696 [info] Last EH closed, waiting before shutting down
+2023-12-08 13:48:52.613 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-08 13:48:52.613 [info] Cancelling previous shutdown timeout
+2023-12-08 13:48:52.707 [info] [127.0.0.1][fa80ee90][ManagementConnection] New connection established.
+2023-12-08 13:48:52.730 [info] [127.0.0.1][41694655][ExtensionHostConnection] New connection established.
+2023-12-08 13:48:52.749 [info] [127.0.0.1][41694655][ExtensionHostConnection] <6151> Launched Extension Host Process.
+2023-12-08 13:48:53.543 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:53.546 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:53.586 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:53.588 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:53.871 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:53.886 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:54.257 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:54.274 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:54.508 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:54.510 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:54.637 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:54.640 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:54.757 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:54.760 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:54.911 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:54.913 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:55.013 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:55.021 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:55.133 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:55.135 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:55.152 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:55.154 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:56.052 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:56.055 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:48:56.355 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:48:56.366 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:49:01.906 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:49:01.912 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:52:14.970 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:52:15.014 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:52:15.035 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:52:15.038 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.
+2023-12-08 13:52:15.105 [error] [/home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.84.0-20231025.
+2023-12-08 13:52:15.109 [error] [/home/pi/.vscode-server/extensions/ms-python.python-2023.22.0]: Extension is not compatible with Code 1.79.2. Extension requires: ^1.82.0.

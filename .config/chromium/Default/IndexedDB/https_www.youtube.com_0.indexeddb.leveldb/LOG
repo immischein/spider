@@ -1,0 +1,14 @@
+2023/11/23-15:07:27.343 9de Reusing MANIFEST /home/pi/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/23-15:07:27.344 9de Recovering log #7
+2023/11/23-15:07:27.344 9de Reusing old log /home/pi/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2023/11/23-15:07:33.242 9f2 Level-0 table #12: started
+2023/11/23-15:07:33.260 9f2 Level-0 table #12: 11996 bytes OK
+2023/11/23-15:07:33.274 9f2 Delete type=0 #7
+2023/11/23-15:07:33.277 9f2 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/23-15:07:33.278 9f2 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 686 : 1
+2023/11/23-15:07:33.278 9f2 Compacting 1@1 + 1@2 files
+2023/11/23-15:07:33.299 9f2 Generated table #13@1: 140 keys, 7307 bytes
+2023/11/23-15:07:33.299 9f2 Compacted 1@1 + 1@2 files => 7307 bytes
+2023/11/23-15:07:33.318 9f2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/23-15:07:33.320 9f2 Delete type=2 #12
+2023/11/23-15:07:33.323 9f2 Manual compaction at level-1 from '\x00\x06\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 686 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,27 @@
+2023-12-08 10:48:29.422 [info] 
+
+
+
+
+2023-12-08 10:48:29.600 [info] Extension host agent started.
+2023-12-08 10:48:29.986 [info] [127.0.0.1][39436192][ManagementConnection] New connection established.
+2023-12-08 10:48:30.003 [info] [127.0.0.1][7d95cca5][ExtensionHostConnection] New connection established.
+2023-12-08 10:48:30.073 [info] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.140.584
+2023-12-08 10:48:30.313 [info] [127.0.0.1][7d95cca5][ExtensionHostConnection] <1957> Launched Extension Host Process.
+2023-12-08 10:48:35.885 [info] Getting Manifest... github.copilot
+2023-12-08 10:48:36.175 [info] Installing extension: github.copilot
+2023-12-08 10:48:41.281 [error] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-12-08 10:48:46.733 [info] Extension signature is verified: github.copilot
+2023-12-08 10:48:47.925 [info] Extracted extension to /home/pi/.vscode-server/extensions/.8f8a1f05-a352-4e54-82dc-c4a8e1044a92: github.copilot
+2023-12-08 10:48:48.007 [info] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.141.0
+2023-12-08 10:48:48.012 [info] Extracting extension completed. github.copilot
+2023-12-08 10:48:48.094 [info] Extension installed successfully: github.copilot
+2023-12-08 10:48:48.113 [info] Marked extension as uninstalled github.copilot-1.140.585
+2023-12-08 10:48:50.118 [error] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-12-08 10:53:29.602 [info] New EH opened, aborting shutdown
+2023-12-08 11:49:20.315 [info] [127.0.0.1][39436192][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-08 11:49:20.704 [info] [127.0.0.1][7d95cca5][ExtensionHostConnection] <1957> Extension Host Process exited with code: 0, signal: null.
+2023-12-08 11:49:20.706 [info] Last EH closed, waiting before shutting down
+2023-12-08 11:54:20.707 [info] Last EH closed, shutting down

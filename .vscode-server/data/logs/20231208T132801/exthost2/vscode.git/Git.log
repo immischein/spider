@@ -1,0 +1,55 @@
+2023-12-08 13:29:40.108 [info] Log level: Info
+2023-12-08 13:29:40.108 [info] Validating found git in: "git"
+2023-12-08 13:29:40.108 [info] Using git "2.39.2" from "git"
+2023-12-08 13:29:40.108 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-08 13:29:40.108 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2023-12-08 13:29:40.108 [info] Open repository: /home/pi
+2023-12-08 13:29:40.108 [info] > git rev-parse --show-toplevel [398ms]
+2023-12-08 13:29:40.108 [info] > git config --get commit.template [425ms]
+2023-12-08 13:29:40.108 [info] > git fetch [469ms]
+2023-12-08 13:29:40.108 [info] No remotes found in the git config file.
+2023-12-08 13:29:40.108 [info] > git rev-parse --show-toplevel [69ms]
+2023-12-08 13:29:40.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2023-12-08 13:29:40.162 [info] > git config --get commit.template [92ms]
+2023-12-08 13:29:40.194 [info] No remotes found in the git config file.
+2023-12-08 13:29:40.238 [info] > git rev-parse --show-toplevel [97ms]
+2023-12-08 13:29:40.268 [info] > git config --get commit.template [48ms]
+2023-12-08 13:29:40.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [76ms]
+2023-12-08 13:29:40.287 [info] > git rev-parse --show-toplevel [23ms]
+2023-12-08 13:29:40.321 [info] No remotes found in the git config file.
+2023-12-08 13:29:40.367 [info] > git rev-parse --show-toplevel [22ms]
+2023-12-08 13:29:40.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [49ms]
+2023-12-08 13:29:40.435 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-08 13:29:40.536 [info] > git rev-parse --show-toplevel [65ms]
+2023-12-08 13:29:40.583 [info] > git rev-parse --show-toplevel [22ms]
+2023-12-08 13:29:40.632 [info] > git rev-parse --show-toplevel [22ms]
+2023-12-08 13:29:40.668 [info] > git rev-parse --show-toplevel [8ms]
+2023-12-08 13:29:40.701 [info] > git rev-parse --show-toplevel [7ms]
+2023-12-08 13:29:40.734 [info] > git rev-parse --show-toplevel [7ms]
+2023-12-08 13:29:40.769 [info] > git rev-parse --show-toplevel [8ms]
+2023-12-08 13:29:40.828 [info] > git rev-parse --show-toplevel [32ms]
+2023-12-08 13:29:40.860 [info] > git check-ignore -v -z --stdin [35ms]
+2023-12-08 13:29:40.868 [info] > git rev-parse --show-toplevel [12ms]
+2023-12-08 13:29:40.904 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-08 13:29:43.630 [info] > git status -z -uall [3237ms] (cancelled)
+2023-12-08 13:29:43.721 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-08 13:29:45.777 [info] > git check-ignore -v -z --stdin [6ms]
+2023-12-08 13:29:48.566 [info] > git show --textconv :Desktop/script.py [37ms]
+2023-12-08 13:29:48.570 [info] > git ls-files --stage -- /home/pi/Desktop/script.py [8ms]
+2023-12-08 13:29:48.616 [info] > git cat-file -s a6f91e85791e49106d7ba6b1f7be4ecc94780d4c [16ms]
+2023-12-08 13:32:40.322 [info] > git fetch [12ms]
+2023-12-08 13:32:40.402 [info] No remotes found in the git config file.
+2023-12-08 13:32:40.407 [info] > git config --get commit.template [45ms]
+2023-12-08 13:32:40.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2023-12-08 13:32:46.327 [info] > git status -z -uall [5883ms] (cancelled)
+2023-12-08 13:32:47.032 [info] > git ls-files --stage -- /home/pi/Desktop/script.py [7ms]
+2023-12-08 13:32:47.078 [info] > git cat-file -s a6f91e85791e49106d7ba6b1f7be4ecc94780d4c [6ms]
+2023-12-08 13:32:47.146 [info] > git show --textconv :Desktop/script.py [9ms]
+2023-12-08 13:35:41.423 [info] > git fetch [18ms]
+2023-12-08 13:35:41.514 [info] No remotes found in the git config file.
+2023-12-08 13:35:41.518 [info] > git config --get commit.template [38ms]
+2023-12-08 13:35:41.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-12-08 13:35:48.192 [info] > git status -z -uall [6638ms] (cancelled)
+2023-12-08 13:35:52.427 [info] > git ls-files --stage -- /home/pi/Desktop/script.py [5ms]
+2023-12-08 13:35:52.481 [info] > git cat-file -s a6f91e85791e49106d7ba6b1f7be4ecc94780d4c [7ms]
+2023-12-08 13:35:52.538 [info] > git show --textconv :Desktop/script.py [6ms]

@@ -1,0 +1,17 @@
+2023-12-06 12:53:01.350 [info] [Info  - 12:53:00] (2639) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-12-06 12:53:01.354 [info] [Info  - 12:53:01] (2639) Server root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-12-06 12:53:01.514 [info] [Info  - 12:53:01] (2639) Starting service instance "<default>"
+2023-12-06 12:53:01.638 [info] [Info  - 12:53:01] (2639) Setting pythonPath for service "<default>": "/bin/python"
+2023-12-06 12:53:01.639 [info] [Info  - 12:53:01] (2639) Setting environmentName for service "<default>": "3.11.2 (global)"
+2023-12-06 12:53:01.790 [info] [Info  - 12:53:01] (2639) Assuming Python version 3.11
+2023-12-06 12:53:02.682 [info] [Info  - 12:53:02] (2639) No source files found.
+2023-12-06 12:53:13.790 [info] [Info  - 12:53:13] (2639) [IDX(FG)] Long operation: read stdlib indices (4010ms)
+2023-12-06 12:53:13.793 [info] [Info  - 12:53:13] (2639) [IDX(FG)] Long operation: index libraries  (index) (4024ms)
+2023-12-06 12:53:13.795 [info] [Info  - 12:53:13] (2639) Setting pythonPath for service "<default>": "/bin/python"
+2023-12-06 12:53:13.796 [info] [Info  - 12:53:13] (2639) Setting environmentName for service "<default>": "3.11.2 (global)"
+2023-12-06 12:53:13.797 [info] [Info  - 12:53:13] (2639) Assuming Python version 3.11
+2023-12-06 12:53:13.798 [info] [Info  - 12:53:13] (2639) No source files found.
+2023-12-06 12:53:23.521 [info] [Info  - 12:53:23] (2639) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (6530ms)
+2023-12-06 12:53:23.521 [info] [Info  - 12:53:23] (2639) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (8156ms)
+2023-12-06 12:56:50.155 [info] [Info  - 12:56:50] (2639) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2029ms)
+2023-12-06 12:57:16.538 [info] [Info  - 12:57:16] (2639) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2374ms)

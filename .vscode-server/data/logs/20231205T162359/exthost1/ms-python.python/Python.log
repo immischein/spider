@@ -1,0 +1,17 @@
+2023-12-05 16:24:22.188 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-05 16:24:22.188 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-05 16:24:22.188 [info] Experiment 'pythonTestAdapter' is active
+2023-12-05 16:24:22.188 [info] Test server listening.
+2023-12-05 16:24:22.188 [info] > conda info --json
+2023-12-05 16:24:22.188 [info] Found: /bin/python --> /bin/python3.11
+2023-12-05 16:24:22.189 [info] Found: /bin/python3 --> /bin/python3.11
+2023-12-05 16:24:22.190 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-12-05 16:24:22.222 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-12-05 16:24:22.222 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-12-05 16:24:22.249 [info] > /bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-12-05 16:24:22.250 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-12-05 16:24:22.360 [info] > /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-12-05 16:24:22.447 [info] Python interpreter path: /bin/python
+2023-12-05 16:24:22.454 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-05 16:24:22.454 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-05 16:24:26.871 [info] Starting Pylance language server.

@@ -1,0 +1,6 @@
+2023/11/23-14:14:08.779 9de Reusing MANIFEST /home/pi/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/23-14:14:08.780 9de Recovering log #3
+2023/11/23-14:14:09.119 9de Reusing old log /home/pi/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2023/11/23-14:14:39.102 9df Level-0 table #5: started
+2023/11/23-14:14:39.552 9df Level-0 table #5: 1988518 bytes OK
+2023/11/23-14:14:39.577 9df Delete type=0 #3

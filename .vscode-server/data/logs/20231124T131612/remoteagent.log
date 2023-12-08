@@ -1,0 +1,28 @@
+2023-11-24 13:16:12.432 [info] 
+
+
+
+
+2023-11-24 13:16:12.567 [info] Extension host agent started.
+2023-11-24 13:16:12.884 [info] [127.0.0.1][19f71451][ManagementConnection] New connection established.
+2023-11-24 13:16:12.890 [info] [127.0.0.1][6391b750][ExtensionHostConnection] New connection established.
+2023-11-24 13:16:13.185 [info] [127.0.0.1][6391b750][ExtensionHostConnection] <2315> Launched Extension Host Process.
+2023-11-24 13:18:17.441 [info] [127.0.0.1][19f71451][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-24 13:18:17.524 [info] [127.0.0.1][6391b750][ExtensionHostConnection] <2315> Extension Host Process exited with code: 0, signal: null.
+2023-11-24 13:18:17.525 [info] Cancelling previous shutdown timeout
+2023-11-24 13:18:17.526 [info] Last EH closed, waiting before shutting down
+2023-11-24 13:18:24.478 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-11-24 13:18:24.478 [info] Cancelling previous shutdown timeout
+2023-11-24 13:18:24.597 [info] [127.0.0.1][9134b51d][ManagementConnection] New connection established.
+2023-11-24 13:18:24.624 [info] [127.0.0.1][44aeb2ad][ExtensionHostConnection] New connection established.
+2023-11-24 13:18:24.659 [info] [127.0.0.1][44aeb2ad][ExtensionHostConnection] <2433> Launched Extension Host Process.
+2023-11-24 13:18:43.384 [info] [127.0.0.1][9134b51d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-24 13:18:43.457 [info] [127.0.0.1][44aeb2ad][ExtensionHostConnection] <2433> Extension Host Process exited with code: 0, signal: null.
+2023-11-24 13:18:43.458 [info] Cancelling previous shutdown timeout
+2023-11-24 13:18:43.458 [info] Last EH closed, waiting before shutting down
+2023-11-24 13:18:49.553 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-11-24 13:18:49.553 [info] Cancelling previous shutdown timeout
+2023-11-24 13:18:49.643 [info] [127.0.0.1][d5bb0782][ManagementConnection] New connection established.
+2023-11-24 13:18:49.657 [info] [127.0.0.1][745c72e4][ExtensionHostConnection] New connection established.
+2023-11-24 13:18:49.673 [info] [127.0.0.1][745c72e4][ExtensionHostConnection] <2559> Launched Extension Host Process.
+2023-11-24 13:23:49.556 [info] New EH opened, aborting shutdown

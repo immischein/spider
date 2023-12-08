@@ -1,0 +1,5 @@
+   334.1ms (setup:799): 2023-11-22 08:56:20
+   334.4ms (setup:800): /home/pi/.local/bin/pipx
+   334.5ms (setup:801): pipx version is 1.2.1
+   334.6ms (setup:802): Default python interpreter is '/usr/bin/python'
+   338.2ms (cli:874): pipx finished.

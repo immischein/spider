@@ -1,0 +1,58 @@
+2023-12-08 12:56:59.435 [info] [Info  - 12:56:59] (2698) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-12-08 12:56:59.438 [info] [Info  - 12:56:59] (2698) Server root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-12-08 12:56:59.548 [info] [Info  - 12:56:59] (2698) Starting service instance "<default>"
+2023-12-08 12:56:59.680 [info] [Info  - 12:56:59] (2698) Setting pythonPath for service "<default>": "/bin/python"
+2023-12-08 12:56:59.684 [info] [Info  - 12:56:59] (2698) Setting environmentName for service "<default>": "3.11.2 (global)"
+2023-12-08 12:56:59.791 [info] [Info  - 12:56:59] (2698) Assuming Python version 3.11
+2023-12-08 12:57:00.808 [info] [Info  - 12:57:00] (2698) No source files found.
+2023-12-08 12:57:01.145 [info] [Info  - 12:57:01] (2698) Setting pythonPath for service "<default>": "/bin/python"
+2023-12-08 12:57:01.146 [info] [Info  - 12:57:01] (2698) Setting environmentName for service "<default>": "3.11.2 (global)"
+2023-12-08 12:57:01.280 [info] [Info  - 12:57:01] (2698) Assuming Python version 3.11
+2023-12-08 12:57:01.498 [info] [Info  - 12:57:01] (2698) No source files found.
+2023-12-08 12:57:10.259 [info] [Info  - 12:57:10] (2698) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/script.py (5633ms)
+2023-12-08 12:57:14.440 [info] [Info  - 12:57:14] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040224624 at /home/pi/Desktop/script.py (2113ms)
+2023-12-08 13:00:48.164 [info] [Info  - 13:00:48] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2853ms)
+2023-12-08 13:00:48.174 [info] [Info  - 13:00:48] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (3230ms)
+2023-12-08 13:00:53.363 [info] [Info  - 13:00:53] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040323993 at /home/pi/Desktop/script.py (3713ms)
+2023-12-08 13:00:57.158 [info] [Info  - 13:00:57] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2012ms)
+2023-12-08 13:01:02.757 [info] [Info  - 13:01:02] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040447644 at /home/pi/Desktop/script.py (3922ms)
+2023-12-08 13:01:09.719 [info] [Info  - 13:01:09] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040457147 at /home/pi/Desktop/script.py (4578ms)
+2023-12-08 13:01:12.409 [info] [Info  - 13:01:12] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2314ms)
+2023-12-08 13:01:12.410 [info] [Info  - 13:01:12] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2408ms)
+2023-12-08 13:01:33.784 [info] [Info  - 13:01:33] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (3573ms)
+2023-12-08 13:01:33.786 [info] [Info  - 13:01:33] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (3660ms)
+2023-12-08 13:01:38.572 [info] [Info  - 13:01:38] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2596ms)
+2023-12-08 13:01:38.573 [info] [Info  - 13:01:38] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2672ms)
+2023-12-08 13:01:42.978 [info] [Info  - 13:01:42] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2963ms)
+2023-12-08 13:01:42.979 [info] [Info  - 13:01:42] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (3038ms)
+2023-12-08 13:01:49.588 [info] [Info  - 13:01:49] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040502803 at /home/pi/Desktop/script.py (3276ms)
+2023-12-08 13:01:52.052 [info] [Info  - 13:01:52] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2344ms)
+2023-12-08 13:01:52.052 [info] [Info  - 13:01:52] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2419ms)
+2023-12-08 13:02:18.567 [info] [Info  - 13:02:18] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040533302 at /home/pi/Desktop/script.py (3019ms)
+2023-12-08 13:02:22.743 [info] [Info  - 13:02:22] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040535264 at /home/pi/Desktop/script.py (2260ms)
+2023-12-08 13:02:31.349 [info] [Info  - 13:02:31] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2199ms)
+2023-12-08 13:02:31.352 [info] [Info  - 13:02:31] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2265ms)
+2023-12-08 13:07:26.386 [info] [Info  - 13:07:26] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040837379 at /home/pi/Desktop/script.py (2090ms)
+2023-12-08 13:07:28.662 [info] [Info  - 13:07:28] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2197ms)
+2023-12-08 13:07:28.663 [info] [Info  - 13:07:28] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2235ms)
+2023-12-08 13:07:33.327 [info] [Info  - 13:07:33] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (3174ms)
+2023-12-08 13:07:33.329 [info] [Info  - 13:07:33] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (3220ms)
+2023-12-08 13:07:40.205 [info] [Info  - 13:07:40] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040853324 at /home/pi/Desktop/script.py (2420ms)
+2023-12-08 13:08:47.808 [info] [Info  - 13:08:47] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702040923965 at /home/pi/Desktop/script.py (2322ms)
+2023-12-08 13:09:33.159 [info] [Info  - 13:09:33] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2015ms)
+2023-12-08 13:09:51.793 [info] [Info  - 13:09:51] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2322ms)
+2023-12-08 13:09:51.794 [info] [Info  - 13:09:51] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2358ms)
+2023-12-08 13:12:24.222 [info] [Info  - 13:12:24] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2402ms)
+2023-12-08 13:12:24.223 [info] [Info  - 13:12:24] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2568ms)
+2023-12-08 13:17:37.627 [info] [Info  - 13:17:37] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041144230 at /home/pi/Desktop/script.py (2553ms)
+2023-12-08 13:17:53.000 [info] [Info  - 13:17:52] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041467341 at /home/pi/Desktop/script.py (2224ms)
+2023-12-08 13:17:57.250 [info] [Info  - 13:17:57] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2723ms)
+2023-12-08 13:17:57.264 [info] [Info  - 13:17:57] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2798ms)
+2023-12-08 13:18:03.145 [info] [Info  - 13:18:03] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041477234 at /home/pi/Desktop/script.py (3628ms)
+2023-12-08 13:18:06.420 [info] [Info  - 13:18:06] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2127ms)
+2023-12-08 13:18:06.422 [info] [Info  - 13:18:06] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2158ms)
+2023-12-08 13:18:27.139 [info] [Info  - 13:18:27] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041485771 at /home/pi/Desktop/script.py (2083ms)
+2023-12-08 13:18:36.016 [info] [Info  - 13:18:36] (2698) [BG(1)] Long operation: checking: /home/pi/Desktop/script.py (2027ms)
+2023-12-08 13:18:36.024 [info] [Info  - 13:18:36] (2698) [BG(1)] Long operation: analyzing: /home/pi/Desktop/script.py (2092ms)
+2023-12-08 13:21:49.525 [info] [Info  - 13:21:49] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041516012 at /home/pi/Desktop/script.py (2049ms)
+2023-12-08 13:23:12.547 [info] [Info  - 13:23:12] (2698) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1702041707667 at /home/pi/Desktop/script.py (2040ms)

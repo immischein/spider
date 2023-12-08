@@ -1,0 +1,18 @@
+2023-11-22 13:20:37.837 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-11-22 13:20:37.837 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-11-22 13:20:37.837 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-11-22 13:20:37.837 [info] Experiment 'pythonREPLSmartSend' is active
+2023-11-22 13:20:37.837 [info] Experiment 'pythonTestAdapter' is active
+2023-11-22 13:20:37.837 [info] Test server listening.
+2023-11-22 13:20:37.837 [info] Python interpreter path: /usr/bin/python3
+2023-11-22 13:20:39.613 [info] Using launch configuration in workspace folder.
+2023-11-22 13:20:39.901 [info] DAP Server launched with command: /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-11-22 13:20:42.257 [info] Send text to terminal:  /usr/bin/env /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 32927 -- /home/pi/Desktop/script.py 
+2023-11-22 13:20:42.352 [info] Starting Pylance language server.
+2023-11-22 13:20:57.740 [info] Using launch configuration in workspace folder.
+2023-11-22 13:20:57.953 [info] DAP Server launched with command: /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-11-22 13:21:00.874 [info] Send text to terminal:  /usr/bin/env /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 50547 -- /home/pi/Desktop/script.py 
+2023-11-22 13:21:07.587 [info] Using launch configuration in workspace folder.
+2023-11-22 13:21:07.749 [info] DAP Server launched with command: /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-11-22 13:21:09.210 [info] Send text to terminal:  /usr/bin/env /usr/bin/python3 /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47921 -- /home/pi/Desktop/script.py 
+2023-11-22 13:21:16.402 [info] Discover tests for workspace name: Desktop - uri: /home/pi/Desktop/script.py

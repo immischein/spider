@@ -1,0 +1,51 @@
+2023-12-05 10:49:22.624 [info] 
+
+
+
+
+2023-12-05 10:49:22.808 [info] Extension host agent started.
+2023-12-05 10:49:23.234 [info] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.139.577
+2023-12-05 10:49:23.517 [info] [127.0.0.1][2c3e576c][ManagementConnection] New connection established.
+2023-12-05 10:49:23.571 [info] [127.0.0.1][5c6d6002][ExtensionHostConnection] New connection established.
+2023-12-05 10:49:23.803 [info] [127.0.0.1][5c6d6002][ExtensionHostConnection] <2328> Launched Extension Host Process.
+2023-12-05 10:49:31.416 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateIcon (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2677)
+    at Object.call (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-12-05 10:49:31.441 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-12-05 10:49:31.686 [info] Getting Manifest... github.copilot
+2023-12-05 10:49:32.142 [info] Installing extension: github.copilot
+2023-12-05 10:49:41.486 [error] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-12-05 10:49:47.265 [info] Extension signature is verified: github.copilot
+2023-12-05 10:49:48.318 [info] Extracted extension to /home/pi/.vscode-server/extensions/.47625aa4-b18f-4514-be40-11e09175b104: github.copilot
+2023-12-05 10:49:48.347 [info] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.140.583
+2023-12-05 10:49:48.356 [info] Extracting extension completed. github.copilot
+2023-12-05 10:49:48.400 [info] Extension installed successfully: github.copilot
+2023-12-05 10:49:48.436 [info] Marked extension as uninstalled github.copilot-1.140.0
+2023-12-05 10:49:50.449 [error] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-12-05 10:54:22.810 [info] New EH opened, aborting shutdown

@@ -1,0 +1,25 @@
+2023-12-08 13:28:05.676 [info] Extension host with pid 4933 started
+2023-12-08 13:28:05.912 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-08 13:28:05.992 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-08 13:28:05.993 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-08 13:28:06.976 [info] Eager extensions activated
+2023-12-08 13:28:06.989 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 13:28:06.992 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 13:28:06.996 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 13:28:06.999 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 13:28:11.659 [error] TypeError: Failed to parse URL from /home/pi/.vscode-server/extensions/github.copilot-chat-0.2.2/dist/tree-sitter.wasm
+    at Object.fetch (node:internal/deps/undici/undici:11413:11)
+2023-12-08 13:28:35.906 [error] CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as guanzhongbudayinga.
+    at authShowWarnings (/home/pi/.vscode-server/extensions/github.copilot-1.141.0/extension/src/auth.ts:65:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cE.getCopilotToken (/home/pi/.vscode-server/extensions/github.copilot-1.141.0/extension/src/auth.ts:95:33)
+    at onDidChangeSessionsHandler (/home/pi/.vscode-server/extensions/github.copilot-1.141.0/extension/src/session.ts:59:13)
+    at h.value (/home/pi/.vscode-server/extensions/github.copilot-1.141.0/extension/src/extension.ts:185:9)
+2023-12-08 13:28:36.134 [error] Error: No access to GitHub Copilot found. You are currently logged in as guanzhongbudayinga.
+    at /home/pi/.vscode-server/extensions/github.copilot-chat-0.2.2/dist/extension.js:8:792471
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at u.getCopilotToken (/home/pi/.vscode-server/extensions/github.copilot-chat-0.2.2/dist/extension.js:8:791942)
+    at t.onDidChangeSessionsHandler (/home/pi/.vscode-server/extensions/github.copilot-chat-0.2.2/dist/extension.js:8:944200)
+    at h.value (/home/pi/.vscode-server/extensions/github.copilot-chat-0.2.2/dist/extension.js:8:939998)
+2023-12-08 13:29:18.375 [info] Extension host terminating: received terminate message from renderer
+2023-12-08 13:29:18.466 [info] Extension host with pid 4933 exiting with code 0

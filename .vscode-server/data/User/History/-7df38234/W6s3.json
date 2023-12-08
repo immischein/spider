@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.inheritEnv": false,
+    "jupyter.interactiveWindowMode": "perFile",
+    "php.validate.executablePath": "",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "php.debug.executablePath": "",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "always"
+
+}

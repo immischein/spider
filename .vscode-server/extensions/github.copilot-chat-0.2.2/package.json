@@ -1,0 +1,339 @@
+{
+	"name": "copilot-chat",
+	"displayName": "GitHub Copilot Chat",
+	"description": "AI chat features powered by Copilot",
+	"version": "0.2.2",
+	"build": "1",
+	"buildType": "dev",
+	"publisher": "GitHub",
+	"preview": true,
+	"homepage": "https://github.com/features/copilot",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/community/community/discussions/categories/copilot"
+	},
+	"bugs": {
+		"url": "https://github.com/community/community/discussions/categories/copilot"
+	},
+	"qna": "https://github.com/github-community/community/discussions/categories/copilot",
+	"icon": "assets/Copilot-App-Icon.png",
+	"pricing": "Trial",
+	"engines": {
+		"vscode": "^1.79.0-insider",
+		"npm": ">=8.0.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Machine Learning",
+		"Education",
+		"Snippets"
+	],
+	"keywords": [
+		"ai",
+		"openai",
+		"codex",
+		"pilot",
+		"snippets",
+		"documentation",
+		"autocomplete",
+		"intellisense",
+		"refactor",
+		"javascript",
+		"python",
+		"typescript",
+		"php",
+		"go",
+		"golang",
+		"ruby",
+		"c++",
+		"c#",
+		"java",
+		"kotlin",
+		"co-pilot"
+	],
+	"badges": [
+		{
+			"url": "https://img.shields.io/badge/GitHub%20Copilot-Subscription%20Required-orange",
+			"href": "https://github.com/github-copilot/signup",
+			"description": "Sign up for GitHub Copilot"
+		},
+		{
+			"url": "https://img.shields.io/github/stars/github/copilot-docs?style=social",
+			"href": "https://github.com/github/copilot-docs",
+			"description": "Star Copilot on GitHub"
+		},
+		{
+			"url": "https://img.shields.io/youtube/channel/views/UC7c3Kb6jYCRj4JOHHZTxKsQ?style=social",
+			"href": "https://www.youtube.com/@GitHub/search?query=copilot",
+			"description": "Check out GitHub on Youtube"
+		},
+		{
+			"url": "https://img.shields.io/twitter/follow/github?style=social",
+			"href": "https://twitter.com/github",
+			"description": "Follow GitHub on Twitter"
+		}
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./dist/extension",
+	"enabledApiProposals": [
+		"interactive",
+		"interactiveUserActions",
+		"terminalDataWriteEvent",
+		"semanticSimilarity",
+		"handleIssueUri"
+	],
+	"contributes": {
+		"interactiveSession": [
+			{
+				"label": "GitHub Copilot",
+				"id": "copilot",
+				"icon": "",
+				"when": "github.copilot.interactiveSession.enabled"
+			}
+		],
+		"commands": [
+			{
+				"command": "github.copilot.interactiveEditor.explain",
+				"title": "Explain This",
+				"enablement": "github.copilot.interactiveSession.enabled && !editorReadonly",
+				"category": "GitHub Copilot"
+			},
+			{
+				"command": "github.copilot.interactiveEditor.generate",
+				"title": "Generate Code",
+				"enablement": "github.copilot.interactiveSession.enabled && !editorReadonly",
+				"category": "GitHub Copilot"
+			},
+			{
+				"command": "github.copilot.interactiveSession.feedback",
+				"title": "Send Chat Feedback",
+				"icon": "$(feedback)",
+				"category": "GitHub Copilot"
+			},
+			{
+				"command": "github.copilot.debug.workbenchState",
+				"title": "Log Workbench State",
+				"category": "Developer"
+			},
+			{
+				"command": "github.copilot.ghpr.applySuggestion",
+				"title": "Apply Suggestion with AI",
+				"icon": "$(sparkle)",
+				"category": "GitHub Copilot"
+			}
+		],
+		"configuration": {
+			"title": "Copilot",
+			"properties": {
+				"github.copilot.editor.enableCodeActions": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable/Disable Copilot Code Actions"
+				}
+			}
+		},
+		"submenus": [
+			{
+				"id": "copilot",
+				"label": "Copilot"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"submenu": "copilot",
+					"when": "github.copilot.interactiveSession.enabled && !editorReadonly",
+					"group": "1_copilot@0"
+				}
+			],
+			"copilot": [
+				{
+					"command": "interactiveEditor.start",
+					"when": "github.copilot.interactiveSession.enabled && !editorReadonly",
+					"group": "copilot@1"
+				},
+				{
+					"command": "github.copilot.interactiveEditor.explain",
+					"when": "github.copilot.interactiveSession.enabled && !editorReadonly",
+					"group": "copilotAction@1"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "github.copilot.interactiveSession.feedback",
+					"when": "github.copilot.activated && github.copilot.interactiveSession.enabled"
+				},
+				{
+					"command": "github.copilot.debug.workbenchState",
+					"when": "true"
+				}
+			],
+			"view/title": [
+				{
+					"command": "github.copilot.interactiveSession.feedback",
+					"when": "view == workbench.panel.interactiveSession.view.copilot",
+					"group": "navigation"
+				}
+			],
+			"comments/comment/title": [
+				{
+					"command": "github.copilot.ghpr.applySuggestion",
+					"title": "Apply Suggestion with AI",
+					"group": "inline@0",
+					"when": "commentController =~ /^github-review/ && !(comment =~ /hasSuggestion/)"
+				}
+			]
+		},
+		"icons": {
+			"copilot-logo": {
+				"description": "GitHub Copilot icon",
+				"default": {
+					"fontPath": "assets/copilot.woff",
+					"fontCharacter": "\\0041"
+				}
+			},
+			"copilot-warning": {
+				"description": "GitHub Copilot icon",
+				"default": {
+					"fontPath": "assets/copilot.woff",
+					"fontCharacter": "\\0042"
+				}
+			},
+			"copilot-notconnected": {
+				"description": "GitHub Copilot icon",
+				"default": {
+					"fontPath": "assets/copilot.woff",
+					"fontCharacter": "\\0043"
+				}
+			}
+		},
+		"iconFonts": [
+			{
+				"id": "copilot-font",
+				"src": [
+					{
+						"path": "assets/copilot.woff",
+						"format": "woff"
+					}
+				]
+			}
+		],
+		"keybindings": [
+			{
+				"command": "workbench.panel.chatSidebar.copilot",
+				"key": "ctrl+alt+i",
+				"mac": "cmd+ctrl+i"
+			}
+		]
+	},
+	"extensionPack": [
+		"GitHub.copilot"
+	],
+	"scripts": {
+		"postinstall": "npx vscode-dts dev && mv vscode.proposed.*.ts extension/src",
+		"vscode:prepublish": "npm-run-all build:extension",
+		"build": "npm-run-all build:*",
+		"build:extension": "webpack --mode production",
+		"build:lib": "cd lib && npm run build",
+		"compile": "npm-run-all compile:*",
+		"compile:extension": "webpack --mode development",
+		"compile:lib": "cd lib && npm run compile",
+		"watch": "npm-run-all -p watch:*",
+		"watch:extension": "webpack --mode development --watch",
+		"watch:lib": "cd lib && npm run watch",
+		"lint": "eslint lib extension --ext ts --cache",
+		"check_deps": "depcruise -c .dependency-cruiser.js .",
+		"test": "npm-run-all test:*",
+		"test:extension": "cd extension && ts-node ./test/runTest.ts --insiders",
+		"test:prompt": "cd prompt && npm install && npm run test",
+		"test:lib": "cd lib && npm run test",
+		"build_test": "tsc extension/test/run.ts",
+		"get_token": "ts-node script/getToken.ts",
+		"generate_languages": "ts-node script/generateLanguages.ts && prettier --write lib/src/language/generatedLanguages.ts",
+		"patch-prerelease": "ts-node script/build/applyPatchForPrerelease.ts",
+		"esbuild:build": "npm-run-all esbuild:build:*",
+		"esbuild:build:extension": "npx tsx .esbuild/extension.esbuild.ts production",
+		"esbuild:watch": "npm-run-all -p esbuild:watch:*",
+		"esbuild:watch:extension": "npx tsx .esbuild/extension.esbuild.ts",
+		"esbuild:watch:lib": "cd lib && npm run esbuild:watch",
+		"esbuild:compile": "npm-run-all esbuild:compile:*",
+		"esbuild:compile:extension": "npx tsx .esbuild/extension.esbuild.ts production",
+		"esbuild:compile:lib": "cd lib && npm run esbuild:compile",
+		"prettier": "prettier --list-different --write --cache ."
+	},
+	"devDependencies": {
+		"@github/prettier-config": "0.0.6",
+		"@types/crypto-js": "^4.1.1",
+		"@types/git-url-parse": "^9.0.1",
+		"@types/js-yaml": "^4.0.5",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "^16.18.24",
+		"@types/node-forge": "^1.3.0",
+		"@types/sinon": "^10.0.13",
+		"@types/tunnel": "^0.0.3",
+		"@types/uuid": "^9.0.1",
+		"@types/vscode": "^1.74.0",
+		"@typescript-eslint/eslint-plugin": "^5.58.0",
+		"@typescript-eslint/parser": "^5.56.0",
+		"@vscode/test-electron": "^2.3.0",
+		"@vscode/vsce": "2.19.0",
+		"dependency-cruiser": "^12.11.1",
+		"esbuild": "^0.17.17",
+		"eslint": "^8.38.0",
+		"eslint-plugin-no-only-tests": "^3.1.0",
+		"fantasticon": "^2.0.0",
+		"get-port": "^5.1.1",
+		"ignore-loader": "^0.1.2",
+		"js-yaml": "^4.1.0",
+		"mocha": "^10.2.0",
+		"npm-run-all": "^4.1.5",
+		"prettier": "2.8.7",
+		"prettier-plugin-organize-imports": "^3.2.2",
+		"proxy": "^1.0.2",
+		"sinon": "^15.1.0",
+		"ts-dedent": "^2.2.0",
+		"ts-loader": "^9.4.2",
+		"ts-node": "^10.9.1",
+		"typed-emitter": "^2.1.0",
+		"typescript": "^5.0.4",
+		"vscode-dts": "^0.3.3",
+		"webpack": "^5.76.0",
+		"webpack-cli": "^5.0.1",
+		"zlib": "^1.0.5"
+	},
+	"dependencies": {
+		"@adobe/helix-fetch": "github:bmuskalla/helix-fetch#4e33e47bf6e64b637d5d713558fde504bf71c947",
+		"@github/copilot-promptlib": "file:prompt",
+		"@roamhq/mac-ca": "^1.0.7",
+		"@sinclair/typebox": "^0.26.8",
+		"@vscode/debugprotocol": "^1.59.0",
+		"ajv": "8.12.0",
+		"ajv-errors": "^3.0.0",
+		"applicationinsights": "^2.5.1",
+		"crypto-js": "^4.1.1",
+		"diff": "^5.1.0",
+		"git-url-parse": "^13.1.0",
+		"ignore": "^5.2.4",
+		"jsonc-parser": "^3.2.0",
+		"node-forge": "^1.3.1",
+		"open": "^8.4.2",
+		"source-map-support": "^0.5.21",
+		"tunnel": "^0.0.6",
+		"uuid": "^9.0.0",
+		"valtio": "^1.10.4",
+		"vscode-uri": "^3.0.7",
+		"win-ca": "^3.5.0"
+	},
+	"__metadata": {
+		"id": "7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f",
+		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+		"publisherDisplayName": "GitHub",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1701445004083,
+		"preRelease": false
+	}
+}

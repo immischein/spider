@@ -1,0 +1,4 @@
+[INFO] [auth] [2023-12-08T13:28:12.219Z] GitHub login failed
+[ERROR] [default] [2023-12-08T13:28:12.240Z] You are not signed in to GitHub. Please sign in to use Copilot.
+[INFO] [auth] [2023-12-08T13:28:35.127Z] Invalid copilot token: missing token: 403 
+[ERROR] [auth] [2023-12-08T13:29:18.463Z] Error while sending notification: Canceled

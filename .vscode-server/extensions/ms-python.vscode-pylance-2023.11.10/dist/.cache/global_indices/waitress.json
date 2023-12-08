@@ -1,0 +1,1 @@
+[["/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10/dist/typeshed-fallback/stubs/waitress/waitress/__init__.pyi",[false,[["create_server",true,2,["create_server","/usr/lib/python3/dist-packages/waitress-stubs/server.pyi",12]],["serve",true,12,null],["serve_paste",true,12,null],["profile",true,12,null]]]]]

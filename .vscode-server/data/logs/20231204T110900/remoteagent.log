@@ -1,0 +1,23 @@
+2023-12-04 11:09:00.656 [info] 
+
+
+
+
+2023-12-04 11:09:00.851 [info] Extension host agent started.
+2023-12-04 11:09:01.287 [info] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.139.0
+2023-12-04 11:09:01.315 [info] [127.0.0.1][f09553ef][ManagementConnection] New connection established.
+2023-12-04 11:09:01.327 [info] [127.0.0.1][0dcbac1d][ExtensionHostConnection] New connection established.
+2023-12-04 11:09:01.584 [info] [127.0.0.1][0dcbac1d][ExtensionHostConnection] <2245> Launched Extension Host Process.
+2023-12-04 11:09:06.600 [info] Getting Manifest... github.copilot
+2023-12-04 11:09:06.781 [info] Installing extension: github.copilot
+2023-12-04 11:09:16.132 [info] Extension signature is verified: github.copilot
+2023-12-04 11:09:16.976 [info] Extracted extension to /home/pi/.vscode-server/extensions/.8818bd58-a3c3-4cca-b9da-1253779b5ecc: github.copilot
+2023-12-04 11:09:17.006 [info] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.140.0
+2023-12-04 11:09:17.010 [info] Extracting extension completed. github.copilot
+2023-12-04 11:09:17.035 [info] Extension installed successfully: github.copilot
+2023-12-04 11:09:17.046 [info] Marked extension as uninstalled github.copilot-1.139.577
+2023-12-04 11:14:00.853 [info] New EH opened, aborting shutdown
+2023-12-04 11:33:56.812 [info] [127.0.0.1][f09553ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-04 11:33:57.075 [info] [127.0.0.1][0dcbac1d][ExtensionHostConnection] <2245> Extension Host Process exited with code: 0, signal: null.
+2023-12-04 11:33:57.077 [info] Last EH closed, waiting before shutting down
+2023-12-04 11:38:57.079 [info] Last EH closed, shutting down

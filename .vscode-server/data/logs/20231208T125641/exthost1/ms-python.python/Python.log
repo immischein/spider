@@ -1,0 +1,26 @@
+2023-12-08 12:56:55.448 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-08 12:56:55.448 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-08 12:56:55.448 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2023-12-08 12:56:55.448 [info] Experiment 'pythonTestAdapter' is active
+2023-12-08 12:56:55.448 [info] Test server listening.
+2023-12-08 12:56:55.502 [info] > /bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-12-08 12:56:55.690 [info] Python interpreter path: /bin/python
+2023-12-08 12:56:56.887 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-08 12:56:56.887 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-08 12:56:59.495 [info] Starting Pylance language server.
+2023-12-08 13:10:00.091 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:10:02.388 [info] Send text to terminal:  /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 60817 -- /home/pi/Desktop/script.py 
+2023-12-08 13:11:02.314 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:11:02.693 [info] Send text to terminal:  cd /home/pi/Desktop ; /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 42323 -- /home/pi/Desktop/script.py 
+2023-12-08 13:11:12.681 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:11:12.938 [info] Send text to terminal:  cd /home/pi/Desktop ; /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 52467 -- /home/pi/Desktop/script.py 
+2023-12-08 13:11:41.419 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:11:41.683 [info] Send text to terminal:  cd /home/pi/Desktop ; /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 60209 -- /home/pi/Desktop/script.py 
+2023-12-08 13:12:26.470 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:12:26.761 [info] Send text to terminal:  cd /home/pi/Desktop ; /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 50497 -- /home/pi/Desktop/script.py 
+2023-12-08 13:12:31.110 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:12:32.604 [info] Send text to terminal:  /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 52749 -- /home/pi/Desktop/script.py 
+2023-12-08 13:16:04.407 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:16:06.099 [info] Send text to terminal:  /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 33129 -- /home/pi/Desktop/script.py 
+2023-12-08 13:18:49.876 [info] DAP Server launched with command: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter
+2023-12-08 13:18:50.245 [info] Send text to terminal:  cd /home/pi/Desktop ; /usr/bin/env /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 44329 -- /home/pi/Desktop/script.py 

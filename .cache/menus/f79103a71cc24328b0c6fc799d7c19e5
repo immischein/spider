@@ -1,0 +1,570 @@
+1.2
+lxde-applications.menu
+17
+D/home/pi/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/raspi-ui-overrides/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/pi/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/raspi-ui-overrides/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/pi/.config/menus/applications-merged
+F/home/pi/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+MATE;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+3
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+3
+0
+-xarchiver.desktop
+Archiver
+A GTK+ only archive manager
+xarchiver
+
+8
+Archive manager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,library,7-zip,7z,7za,7zip,7zr,7zz,apk,ar,arj,bz2,bzip2,cab,cbz,compress,cpio,deb,epub,exe,gtar,gunzip,gz,gzip,iso,jar,jsonlz4,lbzip2,lha,lrz,lrzip,lsar,lunzip,lz,lz4,lzh,lzip,lzma,lzo,lzop,mksquashfs,mozlz4,oxt,pbzip2,pigz,plzip,rar,rar4,rar5,rpm,snap,squashfs,tar,unar,unarchiver,unarj,unrar,unsquashfs,unzip,xpi,xz,zip,zpaq,zst,Zstandard,zstd
+-galculator.desktop
+Calculator
+Perform simple and scientific calculations
+galculator
+
+8
+
+galculator
+2
+0
+
+
+Utility
+
+-org.gnome.Evince.desktop
+Document Viewer
+View multi-page documents
+org.gnome.Evince
+
+8
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Utility;Viewer;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation,viewer,evince
+-pcmanfm.desktop
+File Manager
+Browse the file system and manage the files
+system-file-manager
+
+8
+File Manager
+pcmanfm %U
+2
+0
+
+
+FileTools;FileManager;Utility;Core;GTK
+
+-rpi-imager.desktop
+Imager
+Raspberry Pi Imager
+rpi-imager
+
+9
+
+rpi-imager
+0
+0
+
+
+Utility
+
+-agnostics.desktop
+Raspberry Pi Diagnostics
+Test the Raspberry Pi hardware
+rpi
+
+9
+Raspberry Pi Diagnostics
+agnostics
+2
+0
+
+
+Utility
+
+-piclone.desktop
+SD Card Copier
+Copy SD cards and USB devices
+media-removable
+
+9
+SD Card Copier
+piclone
+2
+0
+
+
+Utility
+
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+8
+Process manager
+lxtask
+2
+0
+
+
+GTK;Utility;Monitor
+task,kill,suspend,processor,memory,monitoring,performance
+-lxterminal.desktop
+Terminal
+Use the command line
+lxterminal
+
+8
+Terminal
+lxterminal
+0
+0
+lxterminal
+
+GTK;Utility;TerminalEmulator
+console,command line,execute
+-org.xfce.mousepad.desktop
+Text Editor
+Simple Text Editor
+org.xfce.mousepad
+
+8
+Text Editor
+mousepad %U
+2
+0
+
+
+Utility;TextEditor;GTK
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+9
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+3
+0
+-eom.desktop
+Image Viewer
+Browse and rotate images
+eom
+
+8
+
+eom %U
+2
+0
+eom
+
+GTK;Graphics;2DGraphics;RasterGraphics;Viewer
+image,viewer,JPEG,PNG,TIFF,SVG,MATE,photos,browse,thumbnails,rotate
+
++Internet
+Internet
+Programs for Internet access such as web and e-mail
+applications-internet
+lxde-network.directory
+3
+0
+-chromium-browser.desktop
+Chromium Web Browser
+Access the Internet
+chromium-browser
+
+9
+Web Browser
+chromium-browser %U
+2
+0
+
+
+Network;WebBrowser
+
+-firefox.desktop
+Firefox
+Browse the World Wide Web
+firefox
+
+9
+Web Browser
+/usr/lib/firefox/firefox %u
+2
+0
+
+
+Network;WebBrowser
+
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+3
+0
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts, and logos by using Draw.
+libreoffice-draw
+
+8
+Drawing Program
+libreoffice --draw %U
+2
+0
+libreoffice
+
+Office;FlowChart;2DGraphics;VectorGraphics
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+
++Other
+Other
+Applications that do not fit in other categories
+applications-other
+lxde-other.directory
+3
+0
+-rp-bookshelf.desktop
+Bookshelf
+Download and read Raspberry Pi Press publications
+bookshelf
+
+9
+Bookshelf
+rp-bookshelf
+2
+0
+
+
+Help
+
+-debian-reference-common.desktop
+Debian Reference
+Debian Reference Guide
+debian-reference
+
+8
+
+debian-reference
+0
+0
+
+
+Help
+user,shell,command,documentation,manual,help,guide,debian
+-raspi_getstart.desktop
+Get Started
+
+rpi
+
+8
+
+x-www-browser https://rptl.io/get-started
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-raspi_help.desktop
+Help
+
+rpi
+
+8
+
+x-www-browser https://rptl.io/help
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-raspi_resources.desktop
+Projects
+
+rpi
+
+8
+
+x-www-browser https://rptl.io/tutorials
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+3
+0
+-geany.desktop
+Geany Programmer's Editor
+A fast and lightweight IDE using GTK+
+geany
+
+8
+Integrated Development Environment
+geany %F
+2
+0
+
+
+GTK;Development;IDE;TextEditor
+Text,Editor
+-idle.desktop
+IDLE
+Integrated DeveLopment Environment for Python3
+/usr/share/pixmaps/idle.xpm
+
+9
+
+/usr/bin/idle %F
+2
+0
+/usr/bin/idle
+
+Application;Development
+
+-idle-python3.11.desktop
+IDLE (using Python-3.11)
+Integrated Development Environment for Python (using Python-3.11)
+/usr/share/pixmaps/python3.11.xpm
+
+9
+
+/usr/bin/idle-python3.11
+2
+0
+
+
+Application;Development
+
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+8
+
+scratch %f
+0
+0
+scratch
+
+Application;Development;ComputerScience
+
+-org.thonny.Thonny.desktop
+Thonny
+Python IDE for beginners
+thonny
+
+9
+Python IDE
+/usr/bin/thonny %F
+0
+0
+
+
+Development;IDE
+programming,education
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+3
+0
+-vlc.desktop
+VLC Media Player
+Read, capture, broadcast your multimedia streams
+vlc
+
+8
+Media player
+/usr/bin/vlc --started-from-file %U
+0
+0
+/usr/bin/vlc
+
+AudioVideo;Player;Recorder
+Player,Capture,DVD,Audio,Video,Server,Broadcast
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+3
+0
+-pi-packages.desktop
+Add / Remove Software
+Add or remove software installed on the system
+system-software-install
+
+9
+
+pi-packages
+2
+-5
+
+
+GNOME;GTK;System;Settings;PackageManager
+Updates,Upgrade,Sources,Repositories,Preferences,Install,Store
+-pipanel.desktop
+Appearance Settings
+Configure the appearance of the desktop and windows
+preferences-desktop-theme
+
+9
+Appearance Settings
+pipanel
+2
+0
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-alacarte.desktop
+Main Menu Editor
+Add or remove applications from the main menu
+alacarte
+
+9
+
+alacarte
+2
+-5
+
+
+GNOME;Settings;DesktopSettings
+
+-lxinput.desktop
+Mouse and Keyboard Settings
+Configure mouse, keyboard, and other input devices
+preferences-desktop-peripherals
+
+9
+
+lxinput
+2
+0
+lxinput
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-system-config-printer.desktop
+Print Settings
+Configure printers
+printer
+
+9
+Print Settings
+system-config-printer
+2
+0
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing
+Printer,Queue,Print,Paper,Ink,Toner
+-rc_gui.desktop
+Raspberry Pi Configuration
+Configure Raspberry Pi system
+rpi
+
+9
+Raspberry Pi Configuration
+rc_gui
+2
+0
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-rp-prefapps.desktop
+Recommended Software
+Install additional programs recommended for use on the Pi
+rpi
+
+9
+Recommended Software
+rp-prefapps
+2
+0
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-arandr.desktop
+Screen Configuration
+
+computer
+
+9
+Screen Settings
+arandr
+2
+0
+
+
+Settings;HardwareSettings
+
+
+

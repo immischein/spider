@@ -1,0 +1,48 @@
+2023-12-06 12:52:29.809 [info] 
+
+
+
+
+2023-12-06 12:52:30.009 [info] Extension host agent started.
+2023-12-06 12:52:30.636 [info] Deleted from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.140.583
+2023-12-06 12:52:30.709 [info] [127.0.0.1][74328a5a][ManagementConnection] New connection established.
+2023-12-06 12:52:30.788 [info] [127.0.0.1][5aeb00b7][ExtensionHostConnection] New connection established.
+2023-12-06 12:52:31.112 [info] [127.0.0.1][5aeb00b7][ExtensionHostConnection] <2589> Launched Extension Host Process.
+2023-12-06 12:52:37.517 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateIcon (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2677)
+    at Object.call (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-12-06 12:52:37.521 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/pi/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-12-06 12:52:38.695 [info] Getting Manifest... github.copilot
+2023-12-06 12:52:39.006 [info] Installing extension: github.copilot
+2023-12-06 12:52:50.473 [info] Extension signature is verified: github.copilot
+2023-12-06 12:52:51.363 [info] Extracted extension to /home/pi/.vscode-server/extensions/.ce62c5bb-4ed8-4ad1-a50a-c37340c03ae6: github.copilot
+2023-12-06 12:52:51.384 [info] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.140.585
+2023-12-06 12:52:51.390 [info] Extracting extension completed. github.copilot
+2023-12-06 12:52:51.416 [info] Extension installed successfully: github.copilot
+2023-12-06 12:52:51.429 [info] Marked extension as uninstalled github.copilot-1.140.584
+2023-12-06 12:57:30.011 [info] New EH opened, aborting shutdown
+2023-12-06 16:09:42.455 [info] [127.0.0.1][5aeb00b7][ExtensionHostConnection] The client has reconnected.

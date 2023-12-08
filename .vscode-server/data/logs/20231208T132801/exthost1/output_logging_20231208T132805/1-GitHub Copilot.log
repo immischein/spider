@@ -1,0 +1,3 @@
+[INFO] [auth] [2023-12-08T13:28:34.705Z] Invalid copilot token: missing token: 403 
+[ERROR] [default] [2023-12-08T13:28:34.715Z] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as guanzhongbudayinga."
+[INFO] [auth] [2023-12-08T13:28:34.903Z] Invalid copilot token: missing token: 403 

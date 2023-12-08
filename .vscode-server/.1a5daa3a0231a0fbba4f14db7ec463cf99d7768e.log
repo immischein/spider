@@ -1,0 +1,56 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:40845 (IPv4)
+Extension host agent listening on 40845
+
+[13:28:01] 
+
+
+
+
+[13:28:01] Extension host agent started.
+[13:28:01] [127.0.0.1][93200cf1][ManagementConnection] New connection established.
+[13:28:01] [127.0.0.1][e35a87dd][ExtensionHostConnection] New connection established.
+[13:28:01] [127.0.0.1][e35a87dd][ExtensionHostConnection] <4933> Launched Extension Host Process.
+[13:28:07] Getting Manifest... github.copilot-chat
+[13:28:07] Getting Manifest... ms-python.python
+[13:28:07] Installing extension: github.copilot-chat
+[13:28:07] Installing extension: ms-python.python
+[13:28:13] Extension signature verification failed with error 'ENOENT': github.copilot-chat
+[13:28:14] Extracted extension to file:///home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2: github.copilot-chat
+[13:28:15] Renamed to /home/pi/.vscode-server/extensions/github.copilot-chat-0.10.2
+[13:28:15] Extracting extension completed. github.copilot-chat
+[13:28:15] Extension installed successfully: github.copilot-chat
+[13:28:15] Marked extension as uninstalled github.copilot-chat-0.2.2
+[13:28:34] Extension signature verification failed with error 'ENOENT': ms-python.python
+[13:28:49] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2023.22.0: ms-python.python
+[13:28:49] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2023.22.0
+[13:28:49] Extracting extension completed. ms-python.python
+[13:28:49] Extension installed successfully: ms-python.python
+[13:28:49] Marked extension as uninstalled ms-python.python-2023.14.0
+[13:29:18] [127.0.0.1][93200cf1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:29:18] [127.0.0.1][e35a87dd][ExtensionHostConnection] <4933> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:29:18] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:29:18] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:29:29] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:29:29] Cancelling previous shutdown timeout
+[13:29:29] [127.0.0.1][2e433144][ManagementConnection] New connection established.
+[13:29:29] [127.0.0.1][5852769b][ExtensionHostConnection] New connection established.
+[13:29:29] [127.0.0.1][5852769b][ExtensionHostConnection] <5059> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[13:34:29] New EH opened, aborting shutdown
+[13:36:32] [127.0.0.1][2e433144][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:36:32] [127.0.0.1][5852769b][ExtensionHostConnection] <5059> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:36:32] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[13:41:32] Last EH closed, shutting down

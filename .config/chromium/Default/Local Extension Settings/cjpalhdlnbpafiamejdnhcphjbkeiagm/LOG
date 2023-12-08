@@ -1,0 +1,23 @@
+2023/12/08-13:00:01.801 ae7 Reusing MANIFEST /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/12/08-13:00:01.802 ae7 Recovering log #52
+2023/12/08-13:00:01.838 ae7 Reusing old log /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000052.log 
+2023/12/08-13:00:30.023 ae7 Level-0 table #56: started
+2023/12/08-13:00:30.258 ae7 Level-0 table #56: 2214129 bytes OK
+2023/12/08-13:00:30.272 ae7 Delete type=0 #52
+2023/12/08-13:00:30.278 ae6 Compacting 4@0 + 4@1 files
+2023/12/08-13:00:30.634 ae6 Generated table #57@0: 13 keys, 2594787 bytes
+2023/12/08-13:00:31.047 ae6 Generated table #58@0: 19 keys, 2259686 bytes
+2023/12/08-13:00:31.106 ae6 Generated table #59@0: 9 keys, 130909 bytes
+2023/12/08-13:00:31.106 ae6 Compacted 4@0 + 4@1 files => 4985382 bytes
+2023/12/08-13:00:31.115 ae6 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/12/08-13:00:31.116 ae6 Delete type=2 #49
+2023/12/08-13:00:31.116 ae6 Delete type=2 #53
+2023/12/08-13:00:31.116 ae6 Delete type=2 #47
+2023/12/08-13:00:31.116 ae6 Delete type=2 #56
+2023/12/08-13:00:31.116 ae6 Delete type=2 #51
+2023/12/08-13:00:31.116 ae6 Delete type=2 #46
+2023/12/08-13:00:31.116 ae6 Delete type=2 #44
+2023/12/08-13:00:31.116 ae6 Delete type=2 #45
+2023/12/08-13:02:31.109 ae7 Level-0 table #61: started
+2023/12/08-13:02:31.551 ae7 Level-0 table #61: 3065545 bytes OK
+2023/12/08-13:02:31.565 ae7 Delete type=0 #55

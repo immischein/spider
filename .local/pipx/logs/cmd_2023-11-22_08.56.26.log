@@ -1,0 +1,38 @@
+   321.9ms (setup:799): 2023-11-22 08:56:26
+   322.2ms (setup:800): /home/pi/.local/bin/pipx install poetry
+   322.3ms (setup:801): pipx version is 1.2.1
+   322.4ms (setup:802): Default python interpreter is '/usr/bin/python'
+   324.8ms (package_name_from_spec:322): Determined package name: poetry
+   325.1ms (package_name_from_spec:323): Package name determined in 0.0s
+   326.7ms (run_subprocess:173): running /usr/bin/python -m venv --without-pip /home/pi/.local/pipx/venvs/poetry
+   511.4ms (run_subprocess:186): stdout:
+   511.6ms (run_subprocess:188): stderr:
+   511.7ms (run_subprocess:189): returncode: 0
+   512.8ms (run_subprocess:173): running /usr/bin/python -m venv --clear /home/pi/.local/pipx/shared
+ 12461.4ms (run_subprocess:186): stdout:
+ 12461.7ms (run_subprocess:188): stderr:
+ 12461.7ms (run_subprocess:189): returncode: 0
+ 12462.3ms (upgrade:91): Upgrading shared libraries in /home/pi/.local/pipx/shared
+ 12463.4ms (run_subprocess:173): running /home/pi/.local/pipx/shared/bin/python -m pip --disable-pip-version-check install --force-reinstall -q --upgrade pip setuptools wheel
+ 26631.3ms (run_subprocess:186): stdout:
+ 26631.6ms (run_subprocess:188): stderr:
+ 26631.6ms (run_subprocess:189): returncode: 0
+ 26632.3ms (run_subprocess:173): running /home/pi/.local/pipx/venvs/poetry/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+ 26679.1ms (run_subprocess:186): stdout: /home/pi/.local/pipx/venvs/poetry/lib/python3.11/site-packages
+ 26679.4ms (run_subprocess:189): returncode: 0
+ 26679.8ms (run_subprocess:173): running /home/pi/.local/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+ 26725.4ms (run_subprocess:186): stdout: /home/pi/.local/pipx/shared/lib/python3.11/site-packages
+ 26725.7ms (run_subprocess:189): returncode: 0
+ 26726.4ms (run_subprocess:173): running /home/pi/.local/pipx/venvs/poetry/bin/python --version
+ 26730.2ms (run_subprocess:186): stdout: Python 3.11.2
+ 26730.4ms (run_subprocess:188): stderr:
+ 26730.5ms (run_subprocess:189): returncode: 0
+ 26731.0ms (_parsed_package_to_package_or_url:141): cleaned package spec: poetry
+ 26731.9ms (run_subprocess:173): running /home/pi/.local/pipx/venvs/poetry/bin/python -m pip install poetry
+ 77332.0ms (run_subprocess:189): returncode: 0
+ 77333.1ms (run_subprocess:173): running <fetch_info_in_venv commands>
+ 77419.8ms (run_subprocess:186): stdout: {"sys_path": ["/usr/lib/python311.zip", "/usr/lib/python3.11", "/usr/lib/python3.11/lib-dynload", "/home/pi/.local/pipx/venvs/poetry/lib/python3.11/site-packages", "/home/pi/.local/pipx/shared/lib/python3.11/site-packages"], "python_version": "3.11.2", "environment": {"implementation_name": "cpython", "implementation_version": "3.11.2", "os_name": "posix", "platform_machine": "aarch64", "platform_release": "6.1.0-rpi4-rpi-v8", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT Debian 1:6.1.54-1+rpt2 (2023-10-05)", "python_full_version": "3.11.2", "platform_python_implementation": "CPython", "python_version": "3.11", "sys_platform": "linux"}}
+ 77420.0ms (run_subprocess:189): returncode: 0
+ 78278.8ms (get_venv_metadata_for_package:316): get_venv_metadata_for_package: 946ms
+ 78279.3ms (_parsed_package_to_package_or_url:141): cleaned package spec: poetry
+ 78283.7ms (cli:874): pipx finished.

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/pi/test_servos" added="2023-11-21T13:27:32.042292Z" modified="2023-11-21T13:27:32.042328Z" visited="2023-11-21T13:27:32.042298Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2023-11-21T13:27:32.042310Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/test_servos.py" added="2023-11-21T13:38:34.147972Z" modified="2023-11-21T13:38:34.147985Z" visited="2023-11-21T13:38:34.147973Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2023-11-21T13:38:34.147980Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/standup.py" added="2023-11-21T15:02:52.210642Z" modified="2023-11-21T15:02:57.902626Z" visited="2023-11-21T15:02:52.210645Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 11:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-21T15:02:57.902616Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/spider.zip" added="2023-11-22T09:02:21.349632Z" modified="2023-11-22T09:02:21.349645Z" visited="2023-11-22T09:02:21.349634Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2023-11-22T09:02:21.349639Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Documents/spider.zip" added="2023-11-22T09:06:30.464927Z" modified="2023-11-22T09:06:30.464961Z" visited="2023-11-22T09:06:30.464931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2023-11-22T09:06:30.464943Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Documents" added="2023-11-22T09:08:32.606514Z" modified="2023-11-22T09:08:32.606527Z" visited="2023-11-22T09:08:32.606516Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2023-11-22T09:08:32.606521Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/script.py" added="2023-11-22T09:42:08.176150Z" modified="2023-11-22T10:01:02.337161Z" visited="2023-11-22T09:42:08.176153Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 45:48;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-22T09:44:09.887415Z" count="2"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2023-11-22T10:01:02.337157Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/tekst.txt" added="2023-11-22T10:20:14.919044Z" modified="2023-11-23T14:31:15.734050Z" visited="2023-11-22T10:20:14.919046Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:55;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-23T14:31:15.734040Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/spider/src/spider/__init__.py" added="2023-11-23T14:12:26.378330Z" modified="2023-11-23T14:12:28.954548Z" visited="2023-11-23T14:12:26.378331Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-23T14:12:28.954543Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
