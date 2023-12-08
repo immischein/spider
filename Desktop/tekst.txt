@@ -1,0 +1,1 @@
+stand straight : arachnakiller.move_all_legs([90,0,90])
